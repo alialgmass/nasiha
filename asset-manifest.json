@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nasiha/static/css/main.a617e044.chunk.css",
+    "main.js": "/nasiha/static/js/main.f5342fc9.chunk.js",
+    "main.js.map": "/nasiha/static/js/main.f5342fc9.chunk.js.map",
+    "runtime-main.js": "/nasiha/static/js/runtime-main.99c2b63b.js",
+    "runtime-main.js.map": "/nasiha/static/js/runtime-main.99c2b63b.js.map",
+    "static/js/2.9f464157.chunk.js": "/nasiha/static/js/2.9f464157.chunk.js",
+    "static/js/2.9f464157.chunk.js.map": "/nasiha/static/js/2.9f464157.chunk.js.map",
+    "static/js/3.3954a24e.chunk.js": "/nasiha/static/js/3.3954a24e.chunk.js",
+    "static/js/3.3954a24e.chunk.js.map": "/nasiha/static/js/3.3954a24e.chunk.js.map",
+    "index.html": "/nasiha/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/nasiha/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.9f464157.chunk.js.LICENSE.txt": "/nasiha/static/js/2.9f464157.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/nasiha/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.99c2b63b.js",
+    "static/js/2.9f464157.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.f5342fc9.chunk.js"
+  ]
+}
