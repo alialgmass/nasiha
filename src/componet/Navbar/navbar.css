@@ -1,0 +1,21 @@
+.navbar{
+    background-color: black;
+    color: cornsilk;
+    height: 49px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 3px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.navbar .logo{
+    float: left;
+}
+.navbar ul li{
+    float: right;
+    margin-left: 54px;
+    list-style: none;
+}
