@@ -1,21 +1,28 @@
 .navbar{
-    background-color: black;
+    background: rgba(22, 1, 1, 0.562);
     color: cornsilk;
     height: 49px;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 3px 0;
+    
+    
 }
-.container{
-    width: 80%;
-    margin: auto;
+.navbar .container{
+    display: flex;
 }
 .navbar .logo{
-    float: left;
+    width: 10%;
+    padding-top: 14px;
 }
-.navbar ul li{
-    float: right;
+.navbar .ul{
+    display: flex;
+    position: absolute;
+    right: 131px;
+}
+.navbar .ul li{
+   width:10%;
     margin-left: 54px;
     list-style: none;
 }

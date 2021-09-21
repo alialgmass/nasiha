@@ -1,0 +1,53 @@
+.hadeth{
+  background: rgba(2, 0, 36, 0.226);
+  background: linear-gradient(160deg, rgba(0, 0, 5, 0.137) 1%, rgba(245, 255, 254, 0.205) 40%, rgba(240, 242, 243, 0.144) 100%);
+}
+.hadeth .hadeth-container {
+position: relative;
+border: 1px solid #eee;
+min-height: 450px;
+box-shadow: 2px 2px 2px 1px #eee inset, -2px -2px 2px 0.5px #ccc inset;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+border-radius: 10px;
+
+}
+.hadeth h3{
+  margin: 0;
+  text-align: center;
+}
+.hadeth-container .number {
+position: absolute;
+top: 0;
+left: 50%;
+transform: translateX(-50%);
+padding:0 10px;
+color: rgb(194, 156, 156);
+width: 60px;
+}
+
+.hadeth .buttons {
+display: flex;
+justify-content: space-between;
+}
+
+.hadeth .buttons .next,
+.hadeth .buttons .prev {
+display: inline-block;
+position: relative;
+padding: 20px;
+color: rgba(19, 1, 1, 0.459);
+box-shadow: 2px 2px 2px 1px #eee , -2px -2px 2px 0.5px #eee;
+cursor: pointer;
+transition: .5s all ease-in-out;
+}
+.hadeth .buttons :hover{
+  transform: scale(.95);
+}
+.hadeth .buttons :active{
+  transform: scale(1.2);
+  color: black;
+  border: 1px solid rgba(19, 1, 1, 0.459);
+}

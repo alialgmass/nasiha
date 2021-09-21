@@ -68,3 +68,58 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+
+
+var images = [
+  "https://www.royalcanin.com/~/media/Royal-Canin/Product-Categories/cat-adult-landing-hero.ashx",
+  "https://upload.wikimedia.org/wikipedia/commons/4/4d/Cat_March_2010-1.jpg"
+]
+
+
+class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = { imgPath: "url(" + images[1] + ")" };
+  }
+
+  componentDidMount() {
+    this.interval = setInterval(() => {
+      this.setState({ imgPath: "url(" + images[0] + ")" })
+    }, 1000);
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.interval);
+  }
+
+  render() {
+    return (
+
+ <div className="App">
+        <div className='dynamicImage' style={{ backgroundImage: this.state.imgPath }} >
+          {console.log(this.state.imgPath)}
+        </div>
+      </div >
+    );
+  }
+}
+
+
+
+
+import { scroller } from "react-scroll";
+
+// excluded React component syntax...
+
+  scrollToSection = () => {
+    scroller.scrollTo("your_css_class_here", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
